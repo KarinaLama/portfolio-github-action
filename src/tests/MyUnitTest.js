@@ -14,7 +14,7 @@ testCases.forEach((testCases) => {
 
     if(result === testCases.expectedOutput){
         console.log(`Test passed: $(testCase.input) added correctly`);
-    }else{
+    }else   {
         console.error(
             `Test failed: Expected $(testCase.expectedOutput),got $(result)`
         );
